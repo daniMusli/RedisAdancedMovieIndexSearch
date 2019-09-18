@@ -18,4 +18,7 @@ npm install mongoose
 now to run the app node ```moviesIndexDemo.js```
 after that your site should be running at : [http://127.0.0.1:3000](http://127.0.0.1:3000)
 
+![alt text](https://github.com/daniMusli/RedisAdancedMovieIndexSearch/blob/master/img1.jpg)
 
+the concept of this project is to check wether the movie exists in the redis cache or not before actually checking the Database which 
+significantly improves the efficiency of the searching process , and if not then add it to the cache for a period of time in case it got frequently requested again . this method is extremly helpfull when dealing with big and complex dataBases .
