@@ -5,7 +5,7 @@ To run this project
 + first you need to download [mongo](https://www.mongodb.com/download-center/charts) and [redis](https://redis.io/download) as well as [node](https://nodejs.org/en/download/) on your local machine
 + after that you need to import the CSV or the JSON dataBase into the mongoDB dataBases using this command from the command line :
 ```mongoimport --db dataBaseAdi --collection collectionAdi --type csv --headerline --file csvDosyaAdi.csv ```
-+ after that from the same directory of the project.js file open the command line and run the following code to initialize the project envo
++ after that from the same directory of the app.js file open the command line and run the following code to initialize the project envo
 ```npm init ```
 + then you have to install the required libraries 
 ```
