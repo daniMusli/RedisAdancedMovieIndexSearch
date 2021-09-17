@@ -8,11 +8,15 @@ To run this project
 + after that from the same directory of the app.js file open the command line and run the following code to initialize the project envo
 ```npm init ```
 + then you have to install the required libraries 
-```Javascript
+```javascript
 npm install express
 npm install redis
 npm install body-parser
 npm install mongoose
+
+if (isAwesome){
+  return true
+}
 
 ```
 now to run the app node ```moviesIndexDemo.js```
