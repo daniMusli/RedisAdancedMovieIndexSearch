@@ -8,7 +8,7 @@ To run this project
 + after that from the same directory of the app.js file open the command line and run the following code to initialize the project envo
 ```npm init ```
 + then you have to install the required libraries 
-```JS
+```js
 npm install express
 npm install redis
 npm install body-parser
